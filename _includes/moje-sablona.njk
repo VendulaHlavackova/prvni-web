@@ -6,8 +6,9 @@
 	<title>{{ title }}</title>
 
 	<!-- Google Fonts -->
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+
 
 	<!-- Náš vlastní styl -->
 	<link rel="stylesheet" href="/css/style.css">
@@ -16,8 +17,9 @@
 <body>
 
 	<header class="header">
-		<h1 class="header__logo">{{ title }}</h1>
-	</header>
+		<header class="hlavicka">
+		<img class="logo" src="" alt="logo Natura">
+	
 
 	<nav class="menu">
 		<ul class="menu__list">
@@ -30,6 +32,8 @@
 		</ul>
 	</nav>
 
+	</header>
+
 	<main class="main">
 
 {{ content | safe }}
@@ -38,7 +42,7 @@
 
 
 	<footer class="footer">
-		&copy;2021, Czechitas
+		&copy;2021, Natura Salon Krásy
 	</footer>
 
 </body>
