@@ -6,32 +6,25 @@ $seda: #9d9d9d;
 $bila: #f2f4f0;
 $tmava-seda: #454545;
 
-
-$font-base: 'Archivo Narrow', sans-serif;
-
+$font-base: "Archivo Narrow", sans-serif;
 
 html {
-    box-sizing: border-box;
-  }
-  
-  *,
-  ::before,
-  ::after {
-    box-sizing: inherit;
-  }
+  box-sizing: border-box;
+}
 
-  body {
-    font-family: $font-base;
-    line-height: 1.5;
-    font-size: 14px;
-    margin-left: auto;
-    margin-right: auto;
-    
-    
-  }
-  
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
 
-
+body {
+  font-family: $font-base;
+  line-height: 1.65;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 h1,
 h2,
@@ -39,7 +32,6 @@ h3,
 h4,
 h5,
 h6 {
-
   letter-spacing: 0.2em;
   text-transform: uppercase;
   text-align: center;
@@ -56,8 +48,7 @@ h6 {
   display: flex;
   justify-content: center;
   padding-top: 30px;
-  padding-bottom: 30px;  
-  
+  padding-bottom: 30px;
 }
 
 .header__logo {
@@ -66,7 +57,6 @@ h6 {
 }
 
 .menu {
-  
 }
 
 .menu__list {
@@ -79,7 +69,6 @@ h6 {
 .menu__item:not(:last-child) {
   border-right: 1px solid $seda;
 }
-
 
 .menu__link {
   display: inline-block;
@@ -95,7 +84,6 @@ h6 {
 }
 
 .main {
-  
   padding: 30px;
   overflow: auto;
 }
@@ -117,84 +105,324 @@ h6 {
   margin: 0 0 15px 30px;
 }
 
-
-
 .pagecontent--kosmetika {
   max-width: 680px;
   margin: 35px auto;
 }
 
 .image--list {
-  
   display: block;
   margin: 0 auto;
   height: 70px;
 }
 
-
-
-
-
-
-.kosmetika--describe1 {
-padding-top: 40px;
-font-size: inherit;
-font-weight: inherit;
-text-align: center;
-color: $tmava-seda;
--moz-osx-font-smoothing: grayscale;
-margin-bottom: 1.6em;
+.kontakt--katka {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $bezova;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
-
+.kosmetika--describe1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
 
 .kosmetika--describe2 {
-font-size: inherit;
-font-weight: inherit;
-text-align: center;
-color: $tmava-seda;
--moz-osx-font-smoothing: grayscale;
-margin-bottom: 1.6em;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
 }
 
 .kosmetika--describe3 {
-font-size: inherit;
-font-weight: inherit;
-text-align: center;
-color: $tmava-seda;
--moz-osx-font-smoothing: grayscale;
-margin-bottom: 1.6em;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
 }
 
 .kosmetika--describe4 {
-font-size: inherit;
-font-weight: inherit;
-text-align: center;
-color: $tmava-seda;
--moz-osx-font-smoothing: grayscale;
-margin-bottom: 1.6em;
-
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
 }
 
-
-
+.image--farel {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+}
 
 .mezoterapie {
   -moz-osx-font-smoothing: grayscale;
   margin-top: 10px;
-font-size: inherit;
-font-weight: inherit;
-text-align: center;
-color: $tmava-seda;
-margin-bottom: 1.6em;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni2 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni3 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni4 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni5 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni6 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni7 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.depilace {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pagecontent--masaze {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.kontakt--alena {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $bezova;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.masaz {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--masaz1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pripravky {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pagecontent--pedikura {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.kontakt--monika {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $bezova;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+
+.pagecontent--kadernictvi {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.kontakt--vendula {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $bezova;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kontakt--kristyna {
+  
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $bezova;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kontakt--michaela {
+  
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $bezova;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kontakt--alena {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $bezova;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kontakt--alena {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $bezova;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 
 
 
 
+
+.pagecontent--rasy {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.rasy--popis1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.rasy--popis2 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.rasy--popis3 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+
+
 .footer {
-  background-color: $svetla-ruzova;
+  background-color: $modra;
   padding: 30px;
   text-align: center;
 }

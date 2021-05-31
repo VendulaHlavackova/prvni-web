@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Archivo Narrow", sans-serif;
-  line-height: 1.5;
+  line-height: 1.65;
   font-size: 14px;
   margin-left: auto;
   margin-right: auto;
@@ -103,8 +103,19 @@ h6 {
   height: 70px;
 }
 
-.kosmetika--describe1 {
+.kontakt--katka {
   padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #a49d84;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kosmetika--describe1 {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -140,6 +151,15 @@ h6 {
   margin-bottom: 1.6em;
 }
 
+.image--farel {
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+}
+
 .mezoterapie {
   -moz-osx-font-smoothing: grayscale;
   margin-top: 10px;
@@ -150,8 +170,236 @@ h6 {
   margin-bottom: 1.6em;
 }
 
+.cenik--osetreni1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni2 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni3 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni4 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni5 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni6 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--osetreni7 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.depilace {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pagecontent--masaze {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.kontakt--alena {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #a49d84;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.masaz {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--masaz1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pripravky {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pagecontent--pedikura {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.kontakt--monika {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #a49d84;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.pagecontent--kadernictvi {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.kontakt--vendula {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #a49d84;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kontakt--kristyna {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #a49d84;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kontakt--michaela {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #a49d84;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kontakt--alena {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #a49d84;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.kontakt--alena {
+  padding-top: 40px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #a49d84;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+.pagecontent--rasy {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.rasy--popis1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.rasy--popis2 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.rasy--popis3 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
 .footer {
-  background-color: #fce8e4;
+  background-color: #cbeaef;
   padding: 30px;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */
