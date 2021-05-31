@@ -2,12 +2,12 @@ $modra: #cbeaef;
 $svetla-ruzova: #fce8e4;
 $tmava-ruzova: #fcb8af;
 $bezova: #a49d84;
-$seda: #d7ded7;
+$seda: #9d9d9d;
 $bila: #f2f4f0;
+$tmava-seda: #454545;
 
 
-$font-base: 'Cormorant Garamond', serif;
-$font-special: 'Proza Libre', sans-serif;
+$font-base: 'Archivo Narrow', sans-serif;
 
 
 html {
@@ -22,8 +22,12 @@ html {
 
   body {
     font-family: $font-base;
-    font-size: 30px;
     line-height: 1.5;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
   }
   
 
@@ -35,52 +39,64 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-special;
+
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #454545;
+  font-size: 20px;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 .header {
-  background-color: $bila;
-  padding: 30px;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;  
+  
 }
 
 .header__logo {
- 
+  margin-right: 20px;
+  text-align: left;
 }
 
 .menu {
-  background-color: #fce8e4;
+  
 }
 
 .menu__list {
-  margin: 0;
-  padding: 2px;
+  padding: 0 10px;
   display: flex;
-  justify-content: center;
   list-style: none;
+  background: transparent;
 }
 
 .menu__item:not(:last-child) {
-  border-right: 1px solid white;
+  border-right: 1px solid $seda;
 }
 
+
 .menu__link {
-  display: block;
-  padding: 15px 30px;
-  color: white;
+  display: inline-block;
+  padding: 10px 15px;
   text-decoration: none;
-  font-weight: bold;
+  color: $seda;
 }
 
 .menu__link:hover,
 .menu__link:focus {
   background-color: white;
-  color: #ff6347;
+  color: $tmava-seda;
 }
 
 .main {
-  margin: 30px 0;
+  
   padding: 30px;
-  border: 3px solid #b9b9b9;
   overflow: auto;
 }
 
@@ -101,8 +117,84 @@ h6 {
   margin: 0 0 15px 30px;
 }
 
+
+
+.pagecontent--kosmetika {
+  max-width: 680px;
+  margin: 35px auto;
+}
+
+.image--list {
+  
+  display: block;
+  margin: 0 auto;
+  height: 70px;
+}
+
+
+
+
+
+
+.kosmetika--describe1 {
+padding-top: 40px;
+font-size: inherit;
+font-weight: inherit;
+text-align: center;
+color: $tmava-seda;
+-moz-osx-font-smoothing: grayscale;
+margin-bottom: 1.6em;
+}
+
+
+
+.kosmetika--describe2 {
+font-size: inherit;
+font-weight: inherit;
+text-align: center;
+color: $tmava-seda;
+-moz-osx-font-smoothing: grayscale;
+margin-bottom: 1.6em;
+}
+
+.kosmetika--describe3 {
+font-size: inherit;
+font-weight: inherit;
+text-align: center;
+color: $tmava-seda;
+-moz-osx-font-smoothing: grayscale;
+margin-bottom: 1.6em;
+}
+
+.kosmetika--describe4 {
+font-size: inherit;
+font-weight: inherit;
+text-align: center;
+color: $tmava-seda;
+-moz-osx-font-smoothing: grayscale;
+margin-bottom: 1.6em;
+
+}
+
+
+
+
+.mezoterapie {
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 10px;
+font-size: inherit;
+font-weight: inherit;
+text-align: center;
+color: $tmava-seda;
+margin-bottom: 1.6em;
+}
+
+
+
+
+
 .footer {
-  background-color: $tmava-ruzova;
+  background-color: $svetla-ruzova;
   padding: 30px;
   text-align: center;
 }
