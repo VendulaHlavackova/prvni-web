@@ -52,7 +52,7 @@ h6 {
 }
 
 .header__logo {
-  margin-right: 20px;
+  margin-right: 30px;
   text-align: left;
 }
 
@@ -60,7 +60,7 @@ h6 {
 }
 
 .menu__list {
-  padding: 0 10px;
+  padding: 0 20px;
   display: flex;
   list-style: none;
   background: transparent;
@@ -84,7 +84,7 @@ h6 {
 }
 
 .main {
-  padding: 30px;
+  padding: 40px;
   overflow: auto;
 }
 
@@ -92,6 +92,8 @@ h6 {
   width: 100%;
   border: 5px solid rgba(0, 0, 0, 0.1);
 }
+
+/* ------ SEKCE - KOSMETIKA --------- */
 
 .pagecontent--kosmetika {
   max-width: 680px;
@@ -243,6 +245,8 @@ h6 {
   margin-bottom: 1.6em;
 }
 
+/* ------ SEKCE - MASAZE --------- */
+
 .pagecontent--masaze {
   max-width: 680px;
   margin: 35px auto;
@@ -287,6 +291,8 @@ h6 {
   margin-bottom: 1.6em;
 }
 
+/* ------ SEKCE - PEDIKURA --------- */
+
 .pagecontent--pedikura {
   max-width: 680px;
   margin: 35px auto;
@@ -303,6 +309,208 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
+
+.pedikura--popis1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pedikura--popis2 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pedikura--popis3 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pedikura--popis4 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pedikura--popis5 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.kontejner-5 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.image--cervena {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.image--ruce {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.image--ruzova {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.image--rasy {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.cenik--pedikura1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--pedikura2 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--pedikura3 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--pedikura4 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--pedikura5 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--pedikura6 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--pedikura7 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--pedikura8 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--pedikura9 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pedikura-zaver1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pedikura-zaver2 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pedikura-zaver3 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.pedikra-zaver3 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+/* ------ SEKCE - KADEŘNICTVÍ --------- */
 
 .pagecontent--kadernictvi {
   max-width: 680px;
@@ -342,6 +550,8 @@ h6 {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
+
+/* ------ SEKCE - ŘASY --------- */
 
 .pagecontent--rasy {
   max-width: 680px;
@@ -458,6 +668,8 @@ h6 {
   -moz-osx-font-smoothing: grayscale;
   margin-bottom: 1.6em;
 }
+
+/* ------ SEKCE - PATICKA --------- */
 
 .footer {
   background-color: $modra;
