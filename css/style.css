@@ -58,10 +58,6 @@ h6 {
   background: transparent;
 }
 
-.menu__item:not(:last-child) {
-  border-right: 1px solid #9d9d9d;
-}
-
 .menu__link {
   display: inline-block;
   padding: 10px 15px;
@@ -76,38 +72,14 @@ h6 {
 }
 
 /* ------ SEKCE - HOME --------- */
-.pozadi {
-  background-image: url(/images/narura-pozadi.jpg);
-  background-size: cover;
-}
-
-.sekce-sluzby {
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fce8e4;
-}
-
-.nadpis-sekce2 {
-  text-align: center;
-  color: #454545;
-}
-
-.obsah-sekce2 {
-  text-align: center;
-}
-
-.sluzba {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.nabidka {
-  display: flex;
-}
-
-.nuzky {
-  padding-right: 30px;
-  padding-left: 30px;
+.hero {
+  background-image: url(/images/cover.png);
+  background-size: 100%;
+  margin-top: 0;
+  height: 400px;
+  background-repeat: no-repeat;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* ------ SEKCE - HOME ( o salonu Natura ) --------- */
@@ -619,14 +591,6 @@ p {
   background-size: cover;
 }
 
-.image--rasy {
-  width: 300px;
-  height: 200px;
-  margin-bottom: 2.6em;
-  margin-top: 2.6em;
-  background-size: cover;
-}
-
 .cenik--pedikura1 {
   font-size: inherit;
   font-weight: inherit;
@@ -784,6 +748,84 @@ p {
   letter-spacing: 0.2em;
 }
 
+.kadernictvi--describe1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.cenik--kadernictvi1 {
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+}
+
+.kontejner-5 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.image--balayage {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.image--melir {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.image--ombre {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.kontejner-6 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.image--barevne {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.image--konce {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
+.image--zrzave {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 2.6em;
+  margin-top: 2.6em;
+  background-size: cover;
+}
+
 /* ------ SEKCE - ŘASY --------- */
 .pagecontent--rasy {
   max-width: 680px;
@@ -817,7 +859,7 @@ p {
   margin-bottom: 1.6em;
 }
 
-.kontejner-6 {
+.kontejner-7 {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -904,8 +946,8 @@ p {
 
 /* ------ SEKCE - PATICKA --------- */
 .footer {
-  background-color: #f2f4f0;
+  background-color: white;
   padding: 30px;
   text-align: center;
-  color: #454545;
+  border-top: 0.5px solid #9d9d9d;
 }/*# sourceMappingURL=style.css.map */
