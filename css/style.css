@@ -309,114 +309,6 @@ p {
   margin-bottom: 1.6em;
 }
 
-.cenik--depi2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi4 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi5 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi6 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi7 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi8 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi9 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi10 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi11 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi12 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi13 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: #454545;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
 /* ------ SEKCE - MASAZE --------- */
 .pagecontent--masaze {
   max-width: 680px;
@@ -950,4 +842,67 @@ p {
   padding: 30px;
   text-align: center;
   border-top: 0.5px solid #9d9d9d;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.nabidka {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.nabidka-obsah {
+  font-size: 12px;
+  font-weight: inherit;
+  text-align: center;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.image--insta {
+  margin-bottom: 5px;
+}
+
+.image--facebook {
+  margin-bottom: 4px;
+}
+
+.image--phone {
+  margin-bottom: 10px;
+}
+
+.image--mapa:hover {
+  background-color: #cbeaef;
+  border-radius: 50%;
+}
+
+.image--insta:hover {
+  background-color: #cbeaef;
+  border-radius: 25%;
+}
+
+.image--facebook:hover {
+  background-color: #cbeaef;
+  border-radius: 10%;
+}
+
+.image--phone:hover {
+  background-color: #cbeaef;
+  border-radius: 10%;
+}
+
+.end {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: inherit;
+  text-align: left;
+  color: #454545;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  padding-top: 40px;
 }/*# sourceMappingURL=style.css.map */

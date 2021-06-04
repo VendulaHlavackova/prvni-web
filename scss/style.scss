@@ -51,15 +51,13 @@ h6 {
   padding-bottom: 30px;
 }
 
-
-
 .header__logo {
   margin-right: 30px;
   text-align: left;
 }
 
 .menu {
-font-size: 16px;
+  font-size: 16px;
 }
 
 .menu__list {
@@ -68,8 +66,6 @@ font-size: 16px;
   list-style: none;
   background: transparent;
 }
-
-
 
 .menu__link {
   display: inline-block;
@@ -87,19 +83,14 @@ font-size: 16px;
 /* ------ SEKCE - HOME --------- */
 
 .hero {
-background-image: url(/images/cover.png);
-background-size: 100%;
-margin-top:0;
-height: 400px;
-background-repeat: no-repeat;
-margin-left: 0;
-margin-right: 0;
+  background-image: url(/images/cover.png);
+  background-size: 100%;
+  margin-top: 0;
+  height: 400px;
+  background-repeat: no-repeat;
+  margin-left: 0;
+  margin-right: 0;
 }
-
-
-
-
-
 
 /* ------ SEKCE - HOME ( o salonu Natura ) --------- */
 
@@ -109,12 +100,11 @@ margin-right: 0;
 }
 
 .obsah-sekce {
-
-margin-left: auto;
-margin-right: auto;
-text-align: left;
-padding-top: 80px;
-padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .nadpis-natura {
@@ -139,17 +129,14 @@ p {
   margin-bottom: 1.6em;
 }
 
-
-
 .natura-foto {
-margin-right: 30px;
-margin-left: 30px;
-border-radius: 5px;
-background-size: cover;
-width: 550px;
-height: 500px;
+  margin-right: 30px;
+  margin-left: 30px;
+  border-radius: 5px;
+  background-size: cover;
+  width: 550px;
+  height: 500px;
 }
-
 
 /* ------ SEKCE - KOSMETIKA --------- */
 
@@ -334,114 +321,6 @@ height: 500px;
   margin-bottom: 1.6em;
 }
 
-.cenik--depi2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi4 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi5 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi6 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi7 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi8 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi9 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi10 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi11 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi12 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--depi13 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
 /* ------ SEKCE - MASAZE --------- */
 
 .pagecontent--masaze {
@@ -618,8 +497,6 @@ height: 500px;
   background-size: cover;
 }
 
-
-
 .cenik--pedikura1 {
   font-size: inherit;
   font-weight: inherit;
@@ -776,9 +653,7 @@ height: 500px;
   margin-bottom: 1.6em;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-
 }
-
 
 .kadernictvi--describe1 {
   font-size: inherit;
@@ -821,7 +696,7 @@ height: 500px;
 }
 
 .image--ombre {
-  width:  200px;
+  width: 200px;
   height: 250px;
   margin-bottom: 2.6em;
   margin-top: 2.6em;
@@ -835,7 +710,7 @@ height: 500px;
 }
 
 .image--barevne {
-  width:  200px;
+  width: 200px;
   height: 250px;
   margin-bottom: 2.6em;
   margin-top: 2.6em;
@@ -843,7 +718,7 @@ height: 500px;
 }
 
 .image--konce {
-  width:  200px;
+  width: 200px;
   height: 250px;
   margin-bottom: 2.6em;
   margin-top: 2.6em;
@@ -851,13 +726,12 @@ height: 500px;
 }
 
 .image--zrzave {
-  width:  200px;
+  width: 200px;
   height: 250px;
   margin-bottom: 2.6em;
   margin-top: 2.6em;
   background-size: cover;
 }
-
 
 /* ------ SEKCE - ŘASY --------- */
 
@@ -983,5 +857,68 @@ height: 500px;
   background-color: white;
   padding: 30px;
   text-align: center;
- border-top: 0.5px solid $seda;
+  border-top: 0.5px solid $seda;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+}
+
+.nabidka {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.nabidka-obsah {
+  font-size: 12px;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.image--insta {
+  margin-bottom: 5px;
+}
+
+.image--facebook {
+  margin-bottom: 4px;
+}
+
+.image--phone {
+  margin-bottom: 10px;
+}
+
+.image--mapa:hover {
+  background-color: $modra;
+  border-radius: 50%;
+}
+
+.image--insta:hover {
+  background-color: $modra;
+  border-radius: 25%;
+}
+
+.image--facebook:hover {
+  background-color: $modra;
+  border-radius: 10%;
+}
+
+.image--phone:hover {
+  background-color: $modra;
+  border-radius: 10%;
+}
+
+.end {
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: inherit;
+  text-align: left;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 1.6em;
+  padding-top: 40px;
 }
