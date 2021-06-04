@@ -92,6 +92,7 @@ h6 {
   margin-right: 0;
 }
 
+
 /* ------ SEKCE - HOME ( o salonu Natura ) --------- */
 
 .dva-sloupce {
@@ -107,18 +108,7 @@ h6 {
   padding-bottom: 80px;
 }
 
-.nadpis-natura {
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #454545;
-  font-size: 20px;
-  font-weight: normal;
-  padding-top: 20px;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  padding-bottom: 0;
-}
+
 
 p {
   font-size: inherit;
@@ -129,13 +119,13 @@ p {
   margin-bottom: 1.6em;
 }
 
-.natura-foto {
+.davines-foto {
   margin-right: 30px;
   margin-left: 30px;
   border-radius: 5px;
   background-size: cover;
-  width: 550px;
-  height: 500px;
+  width: 600px;
+  height: 400px;
 }
 
 /* ------ SEKCE - KOSMETIKA --------- */
@@ -163,34 +153,7 @@ p {
   letter-spacing: 0.2em;
 }
 
-.kosmetika--describe1 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.kosmetika--describe2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.kosmetika--describe3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.kosmetika--describe4 {
+.kosmetika--describe {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -218,61 +181,7 @@ p {
   margin-bottom: 1.6em;
 }
 
-.cenik--osetreni1 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--osetreni2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--osetreni3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--osetreni4 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--osetreni5 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--osetreni6 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--osetreni7 {
+.cenik--osetreni {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -367,33 +276,6 @@ p {
   margin-bottom: 1.6em;
 }
 
-.cenik--masaz2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--masaz3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--masaz4 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
 .pripravky {
   font-size: inherit;
   font-weight: inherit;
@@ -423,42 +305,6 @@ p {
 }
 
 .pedikura--popis1 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.pedikura--popis2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.pedikura--popis3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.pedikura--popis4 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.pedikura--popis5 {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -497,7 +343,7 @@ p {
   background-size: cover;
 }
 
-.cenik--pedikura1 {
+.cenik--pedikura {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -506,106 +352,7 @@ p {
   margin-bottom: 1.6em;
 }
 
-.cenik--pedikura2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--pedikura3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--pedikura4 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--pedikura5 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--pedikura6 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--pedikura7 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--pedikura8 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.cenik--pedikura9 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.pedikura-zaver1 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.pedikura-zaver2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.pedikura-zaver3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.pedikra-zaver3 {
+.pedikura-zaver {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -655,7 +402,7 @@ p {
   letter-spacing: 0.2em;
 }
 
-.kadernictvi--describe1 {
+.kadernictvi--describe {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -740,25 +487,7 @@ p {
   margin: 35px auto;
 }
 
-.rasy--popis1 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.rasy--popis2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.rasy--popis3 {
+.rasy--popis {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -789,7 +518,7 @@ p {
   background-size: cover;
 }
 
-.rasy-text1 {
+.rasy-text {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -798,51 +527,7 @@ p {
   margin-bottom: 1.6em;
 }
 
-.rasy-text2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.rasy-text3 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.rasy-text4 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.rasy-zaver1 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-.rasy-zaver2 {
-  font-size: inherit;
-  font-weight: inherit;
-  text-align: center;
-  color: $tmava-seda;
-  -moz-osx-font-smoothing: grayscale;
-  margin-bottom: 1.6em;
-}
-
-.rasy-zaver3 {
+.rasy-zaver {
   font-size: inherit;
   font-weight: inherit;
   text-align: center;
@@ -857,7 +542,7 @@ p {
   background-color: white;
   padding: 30px;
   text-align: center;
-  border-top: 0.5px solid $seda;
+  border-top: 0.5px solid #e2dcd7;
 }
 
 .flexbox {
