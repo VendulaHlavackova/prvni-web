@@ -29,26 +29,27 @@ body {
 /* ------ SEKCE - MOBILNÍ VERZE --------- */
 
 @media screen and (max-width: 700px) {
+  .hero {
+    background-image: url(/images/cover.png);
+    background-size: 100%;
+    max-height: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .header {
     display: flex;
-    flex-wrap: wrap;
-  }
-
-  .menu {
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .menu__list {
-    flex: 1 50%;
-    list-style: none;
-    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
   }
 
-  .menu__link {
-    flex: 1 50%;
-    text-decoration: none;
-    color: $seda;
+  .menu__item {
+    flex: 1 1 50%;
   }
 
   .dva-sloupce {
@@ -69,10 +70,130 @@ body {
     flex: 1 1 50%;
   }
 
+  .tlacitko {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .tipy-davines {
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: $tmava-seda;
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .foto-colagen {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--farel {
+    max-width: 400px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kontejner-2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image--liceni {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--lampa {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kontejner-4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image--cervena {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--ruce {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--ruzova {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kontejner-5 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image--balayage {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--melir {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--ombre {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kontejner-6 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image--barevne {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--konce {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--zrzave {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .kontejner-7 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .image--rasy {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image--volume {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .end {
     display: flex;
     justify-content: center;
-    
   }
 }
 
@@ -99,11 +220,6 @@ h6 {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-
-.header__logo {
-  margin-right: 30px;
-  text-align: left;
 }
 
 .menu {
@@ -137,7 +253,7 @@ h6 {
   background-image: url(/images/cover.png);
   background-size: 100%;
   margin-top: 0;
-  height: 400px;
+  height: 500px;
   background-repeat: no-repeat;
   margin-left: 0;
   margin-right: 0;
@@ -192,31 +308,80 @@ a {
   text-decoration: none;
 }
 
-
 .eko-tipy {
   padding-bottom: 10px;
+  padding-top: 30px;
 }
 
-
 .dva-boxy {
-  display:flex;
+  display: flex;
+  justify-content: space-between;
 }
 
 .obsah-boxu {
-margin-left: auto;
-margin-right: auto;
-max-width: 1000px;
-text-align: left;
-padding-top: 30px;
-padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
+.foto-box {
+  border-radius: 5px;
+}
 
 .foto-colagen {
-width: 150px;
-height: 300px;
+  width: 250px;
+  height: 250px;
+  margin-top: -20px;
+  margin-left: 100px;
 }
 
+.kolagen-nadpis {
+  padding-top: 0;
+  margin-left: 100px;
+  padding-bottom: 0;
+  color: $modra;
+}
+
+.popis-kolagen {
+  font-size: 13px;
+  font-weight: inherit;
+  text-align: center;
+  color: $tmava-seda;
+  -moz-osx-font-smoothing: grayscale;
+
+  margin-left: 100px;
+}
+
+.tipy-davines {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: left;
+  color: $tmava-seda;
+  font-size: 10px;
+  font-weight: normal;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+
+.seznam {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-align: left;
+  color: $tmava-seda;
+  font-size: 15px;
+  font-weight: normal;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+}
 
 /* ------ SEKCE - KOSMETIKA --------- */
 
