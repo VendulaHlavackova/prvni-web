@@ -17,6 +17,53 @@ body {
   margin-right: auto;
 }
 
+/* ------ SEKCE - MOBILNÍ VERZE --------- */
+@media screen and (max-width: 700px) {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu__list {
+    flex: 1 50%;
+    list-style: none;
+    background: transparent;
+  }
+
+  .menu__link {
+    flex: 1 50%;
+    text-decoration: none;
+    color: #9d9d9d;
+  }
+
+  .dva-sloupce {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .davines-foto {
+    flex: 1 1 50%;
+  }
+
+  .flexbox {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .nabidka {
+    flex: 1 1 50%;
+  }
+
+  .end {
+    display: flex;
+    justify-content: center;
+  }
+}
 h1,
 h2,
 h3,
@@ -63,6 +110,7 @@ h6 {
   padding: 10px 15px;
   text-decoration: none;
   color: #9d9d9d;
+  margin-left: 30px;
 }
 
 .menu__link:hover,
@@ -91,27 +139,65 @@ h6 {
 .obsah-sekce {
   margin-left: auto;
   margin-right: auto;
+  max-width: 1000px;
   text-align: left;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-p {
-  font-size: inherit;
+.text-uvod {
+  font-size: 13px;
   font-weight: inherit;
-  text-align: center;
+  text-align: left;
   color: #454545;
   -moz-osx-font-smoothing: grayscale;
   margin-bottom: 1.6em;
 }
 
 .davines-foto {
-  margin-right: 30px;
-  margin-left: 30px;
+  margin-left: 50px;
   border-radius: 5px;
   background-size: cover;
-  width: 600px;
+  width: 500px;
   height: 400px;
+}
+
+.tlacitko {
+  text-align: center;
+}
+
+.button {
+  background-color: #9d9d9d;
+  color: white;
+  border-radius: 10px;
+  padding: 8px 35px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.eko-tipy {
+  padding-bottom: 10px;
+}
+
+.dva-boxy {
+  display: flex;
+}
+
+.obsah-boxu {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.foto-colagen {
+  width: 150px;
+  height: 300px;
 }
 
 /* ------ SEKCE - KOSMETIKA --------- */
