@@ -85,13 +85,6 @@ body {
     margin-right: auto;
   }
 
-  .image--farel {
-    max-width: 400px;
-    max-height: 200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .kontejner-2 {
     display: flex;
     flex-wrap: wrap;
@@ -180,6 +173,11 @@ body {
   .image--volume {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .kontejner-8 {
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .end {
@@ -439,7 +437,7 @@ a {
 
 .image--liceni {
   width: 300px;
-  height: 200px;
+  height: 400px;
   margin-bottom: 2.6em;
   margin-top: 2.6em;
   background-size: cover;
@@ -447,10 +445,16 @@ a {
 
 .image--lampa {
   width: 300px;
-  height: 200px;
+  height: 400px;
   margin-bottom: 2.6em;
   margin-top: 2.6em;
   background-size: cover;
+}
+
+.kontejner-8 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 .depilace {
